@@ -18,7 +18,6 @@ end
 def printer(attendees)
   puts badges
   puts new_array
-  badges_and_room_assignments.each_line
 end
 
 #Now you have to tell the printer what to print.
