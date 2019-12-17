@@ -16,8 +16,8 @@ new_array = []
 end
 
 def printer(attendees)
-
-  assign_rooms.chomp
+  batch_badge_creator(attendees).each{|attendee| puts attendee}
+  assign_rooms(attendees).each{|room_assignments| puts room_assignments}
   
 
 end
