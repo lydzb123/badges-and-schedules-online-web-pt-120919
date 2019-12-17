@@ -16,8 +16,8 @@ new_array = []
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each{|attendee| puts attendee}
-  assign_rooms(attendees).each{|room_assignments| puts room_assignments}
+  batch_badge_creator(attendees).map{|attendee| puts attendee}
+  assign_rooms(attendees).map{|room_assignments| puts room_assignments}
 end
 
 printer(["Bob", "Kevin", "Tad"])
@@ -25,5 +25,3 @@ printer(["Bob", "Kevin", "Tad"])
 #Now you have to tell the printer what to print.
 #Create a method called printer that will output first the results of the batch_badge_creator method
 #and then of the assign_rooms method to the screen.
-
-assign_rooms(["Kevin", "Aiden", "Chris"])
