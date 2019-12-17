@@ -20,7 +20,6 @@ def printer(attendees)
   assign_rooms(attendees).each{|room_assignments| puts room_assignments}
 end
 
-printer(["Bob", "Kevin", "Tad"])
 
 #Now you have to tell the printer what to print.
 #Create a method called printer that will output first the results of the batch_badge_creator method
