@@ -19,7 +19,6 @@ def printer(attendees)
 
   assign_rooms.chomp
   
-  end
 
 end
 
